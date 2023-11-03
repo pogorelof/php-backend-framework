@@ -58,3 +58,49 @@
  ============= 
 [2023-11-01 13-33-31] Текст ошибки: Метод indexAction в контроллере app\controllers\MainController не найден | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 38 
  ============= 
+[2023-11-03 05-41-40] Текст ошибки: Контроллер app\controllers\ не найден | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 55 
+ ============= 
+[2023-11-03 05-41-40] Текст ошибки: Page not found | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 59 
+ ============= 
+[2023-11-03 05-42-19] Текст ошибки: Контроллер app\controllers\ не найден | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 55 
+ ============= 
+[2023-11-03 05-42-41] Текст ошибки: Контроллер app\controllers\ не найден | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 56 
+ ============= 
+[2023-11-03 05-43-27] Текст ошибки: Контроллер app\controllers\ не найден | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 56 
+ ============= 
+[2023-11-03 05-43-41] Текст ошибки: Page not found | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 60 
+ ============= 
+[2023-11-03 05-43-46] Текст ошибки: Page not found | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 60 
+ ============= 
+[2023-11-03 05-43-48] Текст ошибки: Page not found | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 60 
+ ============= 
+[2023-11-03 05-44-26] Текст ошибки: Контроллер app\controllers\ не найден | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 55 
+ ============= 
+[2023-11-03 05-45-12] Текст ошибки: Контроллер app\controllers\ не найден | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 56 
+ ============= 
+[2023-11-03 05-45-18] Текст ошибки: Контроллер app\controllers\ не найден | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 56 
+ ============= 
+[2023-11-03 05-45-47] Текст ошибки: Контроллер MainController не найден | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 55 
+ ============= 
+[2023-11-03 05-45-48] Текст ошибки: Контроллер MainController не найден | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 55 
+ ============= 
+[2023-11-03 05-56-16] Текст ошибки: Undefined constant "app\controllers\self" | Файл: /var/www/html/watch/app/controllers/MainController.php | Строка: 11 
+ ============= 
+[2023-11-03 07-06-14] Текст ошибки: Контроллер app\controllersMainController не найден | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 56 
+ ============= 
+[2023-11-03 07-13-10] Текст ошибки: Page not found | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 60 
+ ============= 
+[2023-11-03 07-29-33] Текст ошибки: syntax error, unexpected token "}", expecting "," or ";" | Файл: /var/www/html/watch/vendor/watch/core/base/View.php | Строка: 47 
+ ============= 
+[2023-11-03 07-34-27] Текст ошибки: syntax error, unexpected token "}" | Файл: /var/www/html/watch/vendor/watch/core/base/View.php | Строка: 51 
+ ============= 
+[2023-11-03 07-43-03] Текст ошибки: Undefined constant "app\controllers\title" | Файл: /var/www/html/watch/app/controllers/MainController.php | Строка: 9 
+ ============= 
+[2023-11-03 07-44-05] Текст ошибки: Call to undefined function getMeta() | Файл: /var/www/html/watch/app/views/layouts/default.php | Строка: 8 
+ ============= 
+[2023-11-03 08-12-02] Текст ошибки: Class "app\controllers\App" not found | Файл: /var/www/html/watch/app/controllers/MainController.php | Строка: 9 
+ ============= 
+[2023-11-03 08-12-35] Текст ошибки: Class "app\controllers\App" not found | Файл: /var/www/html/watch/app/controllers/MainController.php | Строка: 9 
+ ============= 
+[2023-11-03 08-12-50] Текст ошибки: Class "app\controllers\App" not found | Файл: /var/www/html/watch/app/controllers/MainController.php | Строка: 9 
+ ============= 

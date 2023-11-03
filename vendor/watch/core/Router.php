@@ -30,22 +30,33 @@ class Router
     //Вызывает контроллер, либо возвращает ошибку 404(в зависимости от результата matchRoute)
     public static function dispatch($url)
     {
+        //Если функция нашла маршрут в списке маршрутов метод обрабатывает их
         if (self::matchRoute($url)) {
-            $controller = 'app\controllers\\' . self::$route['prefix'] .
-            self::$route['controller'] . 'Controller'; //Controller - postfix чтобы не вызвать случайно ненужный класс, т.к. все нужные контроллеры имеют окончание Controller
-            //Проверка на существование контроллера
+            //путь к контроллеру
+            $controller = 'app\controllers\\' . self::$route['prefix']
+                . self::$route['controller'] . 'Controller'; //Controller - postfix чтобы не вызвать случайно ненужный класс, т.к. все нужные контроллеры имеют окончание Controller
+            //Проверка на существование контроллера(а точнее класса)
             if(class_exists($controller)){
+                //создается объект контроллера
                 $controllerObject = new $controller(self::$route);
+                //Экшен приводится в camelCase с первым символом в нижнем регистре
                 $action = self::lowerCamelCase(self::$route['action']) . 'Action';//Action - postfix по аналогии с контроллером
+                //проверка на существование метода в классе
                 if(method_exists($controllerObject, $action)){
+                    //Если существует - вызов метода:
                     $controllerObject->$action();
+                    //Вызов метода вызывающего view
+                    $controllerObject->getView();
                 } else{
+                    //Если экшена не существует - вызов ошибки
                     throw new \Exception("Метод {$action} в контроллере {$controller} не найден", 404);
                 }
             } else{
+                //Если контроллера не сущетсвует - вызов ошибки
                 throw new \Exception("Контроллер {$controller} не найден", 404);
             }
         } else {
+            //Если пути не сущетсвует - вызов ошибки
             throw new \Exception("Page not found", 404);
         }
     }
