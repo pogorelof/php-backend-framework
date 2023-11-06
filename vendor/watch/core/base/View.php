@@ -35,6 +35,7 @@ class View
     {
         //Извлекаем данные из массива, которые запишуться в переменные
         //Которые затем можем использовать в шаблоне по названию переменной
+        //Благодаря функции extract
         if(is_array($data)) extract($data);
         $viewFile = APP . "/views/{$this->prefix}{$this->controller}/{$this->view}.php";
         if (is_file($viewFile)) {

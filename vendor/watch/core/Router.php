@@ -2,6 +2,8 @@
 
 namespace watch;
 
+use http\Params;
+
 class Router
 {
     //Все возможные маршруты
@@ -30,6 +32,7 @@ class Router
     //Вызывает контроллер, либо возвращает ошибку 404(в зависимости от результата matchRoute)
     public static function dispatch($url)
     {
+        $url = self::removeQueryString($url);
         //Если функция нашла маршрут в списке маршрутов метод обрабатывает их
         if (self::matchRoute($url)) {
             //путь к контроллеру
@@ -108,5 +111,17 @@ class Router
     //Функция приводящая имя action в допустимый формат: camelCase
     protected static function lowerCamelCase($name){
         return lcfirst(self::upperCamelCase($name));
+    }
+
+    //Для работы с GET запросами
+    protected static function removeQueryString($url){
+        if($url){
+            $params = explode('&', $url, 2);
+            if(strpos($params[0], '=') === false){
+                return $params[0];
+            }else{
+                return '';
+            }
+        }
     }
 }

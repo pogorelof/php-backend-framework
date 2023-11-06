@@ -104,3 +104,73 @@
  ============= 
 [2023-11-03 08-12-50] Текст ошибки: Class "app\controllers\App" not found | Файл: /var/www/html/watch/app/controllers/MainController.php | Строка: 9 
  ============= 
+[2023-11-06 11-04-13] Текст ошибки: Page not found | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 60 
+ ============= 
+[2023-11-06 11-07-27] Текст ошибки: Page not found | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 60 
+ ============= 
+[2023-11-06 11-13-59] Текст ошибки: Page not found | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 61 
+ ============= 
+[2023-11-06 11-18-50] Текст ошибки: Page not found | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 61 
+ ============= 
+[2023-11-06 11-18-51] Текст ошибки: Page not found | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 61 
+ ============= 
+[2023-11-06 11-29-23] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 121 
+ ============= 
+[2023-11-06 11-29-30] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 121 
+ ============= 
+[2023-11-06 11-29-35] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 121 
+ ============= 
+[2023-11-06 11-29-40] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 121 
+ ============= 
+[2023-11-06 11-29-58] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 120 
+ ============= 
+[2023-11-06 11-29-58] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 120 
+ ============= 
+[2023-11-06 11-30-05] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 120 
+ ============= 
+[2023-11-06 11-30-28] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 120 
+ ============= 
+[2023-11-06 11-30-40] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 120 
+ ============= 
+[2023-11-06 11-31-24] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 120 
+ ============= 
+[2023-11-06 11-31-25] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 120 
+ ============= 
+[2023-11-06 11-31-28] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 120 
+ ============= 
+[2023-11-06 11-31-34] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 120 
+ ============= 
+[2023-11-06 11-31-50] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 120 
+ ============= 
+[2023-11-06 11-32-03] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 121 
+ ============= 
+[2023-11-06 11-32-07] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 121 
+ ============= 
+[2023-11-06 11-32-13] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 121 
+ ============= 
+[2023-11-06 11-32-38] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 121 
+ ============= 
+[2023-11-06 11-32-44] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 121 
+ ============= 
+[2023-11-06 11-33-50] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 121 
+ ============= 
+[2023-11-06 11-33-55] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 121 
+ ============= 
+[2023-11-06 11-34-02] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 121 
+ ============= 
+[2023-11-06 11-35-39] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 120 
+ ============= 
+[2023-11-06 11-35-49] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 121 
+ ============= 
+[2023-11-06 11-35-49] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 121 
+ ============= 
+[2023-11-06 11-35-56] Текст ошибки: Undefined constant "watch\params" | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 121 
+ ============= 
+[2023-11-06 11-36-10] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 60 
+ ============= 
+[2023-11-06 11-36-11] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 60 
+ ============= 
+[2023-11-06 11-36-27] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 60 
+ ============= 
+[2023-11-06 11-36-48] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 60 
+ ============= 
