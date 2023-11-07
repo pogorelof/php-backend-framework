@@ -23,9 +23,11 @@ class View
 
         $this->meta = $meta;
 
+        //Если в конструктор передано значение false, то тогда шаблон отключается
         if ($layout === false) {
             $this->layout = false;
         } else {
+            //Присваивается либо переданное значение шаблона, либо дефолтное
             $this->layout = $layout ?: LAYOUT; //LAYOUT значение константы в init
         }
     }
@@ -37,18 +39,21 @@ class View
         //Которые затем можем использовать в шаблоне по названию переменной
         //Благодаря функции extract
         if(is_array($data)) extract($data);
+        //Путь к файлу view
         $viewFile = APP . "/views/{$this->prefix}{$this->controller}/{$this->view}.php";
         if (is_file($viewFile)) {
             ob_start(); //включение буферизации
-            require_once $viewFile;
+            require_once $viewFile; //Идет запись файла в буфер
             $content = ob_get_clean(); //Сохранение вывода в переменную и очистка буфера
         } else {
             throw new \Exception("Не найден вид {$viewFile}", 500);
         }
 
         if ($this->layout !== false) {
+            //Путь к шаблону
             $layoutFile = APP . "/views/layouts/{$this->layout}.php";
             if (is_file($layoutFile)) {
+                //Вывод шаблона
                 require_once $layoutFile;
             } else {
                 throw new \Exception("Не найден шаблон {$layoutFile}", 500);

@@ -9,5 +9,3 @@ require_once CONF . '/routes.php';
 
 $app = new App();
 
-//throw new Exception('Oshibka', 404);
-//debug(\watch\Router::getRoutes());

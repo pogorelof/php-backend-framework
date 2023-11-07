@@ -1,3 +1,3 @@
-<h3>Аккаунт</h3>
-<p>Имя: <?=$name?></p>
-<p>Возраст: <?=$age?></p>
+<?php foreach ($posts as $post): ?>
+    <h3><?= $post->title ?></h3>
+<?php endforeach; ?>

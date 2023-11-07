@@ -174,3 +174,13 @@
  ============= 
 [2023-11-06 11-36-48] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 60 
  ============= 
+[2023-11-06 12-11-51] Текст ошибки: Нет соединения с БД | Файл: /var/www/html/watch/vendor/watch/core/Db.php | Строка: 17 
+ ============= 
+[2023-11-06 12-17-01] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 59 
+ ============= 
+[2023-11-06 12-17-04] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 59 
+ ============= 
+[2023-11-06 12-17-04] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 59 
+ ============= 
+[2023-11-06 12-17-05] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 59 
+ ============= 

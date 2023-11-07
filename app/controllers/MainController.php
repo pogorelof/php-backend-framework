@@ -8,8 +8,8 @@ class MainController extends AppController
     public function indexAction()
     {
         $this->setMeta(App::$app->getProperty('shop_name'), 'Главная страница сайта', 'HTML, PHP, main, page');
-        $name = 'Vladimir';
-        $age = 21;
-        $this->set(compact('name', 'age'));
+
+        $posts = \R::findAll('test');
+        $this->set(compact('posts'));
     }
 }

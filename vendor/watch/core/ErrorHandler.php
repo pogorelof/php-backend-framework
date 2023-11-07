@@ -28,6 +28,7 @@ class ErrorHandler
         $this->displayErrors('Исключение', $error->getMessage(), $error->getFile(), $error->getLine(), $error->getCode());//вызов метода вывода ошибки на страницу
     }
 
+    //Метод логирования ошибок
     protected function logErrors($message='', $file='', $line='')
     {
         //Логирование с помощью функции error_log в папку tmp
@@ -35,6 +36,7 @@ class ErrorHandler
         3, ROOT . '/tmp/errors.log');
     }
 
+    //Метод вывода ошибки
     protected function displayErrors($errno, $errstr, $errfile, $errline, $response='404')
     {
         http_response_code($response);
