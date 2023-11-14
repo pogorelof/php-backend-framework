@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 use watch\App;
+use watch\Cache;
 
 class MainController extends AppController
 {
@@ -11,5 +12,13 @@ class MainController extends AppController
 
         $posts = \R::findAll('test');
         $this->set(compact('posts'));
+
+        $names = ['Vladimir', 'Malika'];
+
+        $cache = Cache::instance();
+//        $cache->set('test', $names);
+//        $cache->delete('test');
+        $data = $cache->get('test');
+        debug($data);
     }
 }

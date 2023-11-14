@@ -184,3 +184,9 @@
  ============= 
 [2023-11-06 12-17-05] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 59 
  ============= 
+[2023-11-09 05-59-52] Текст ошибки: Page not found | Файл: /var/www/html/watch/vendor/watch/core/Router.php | Строка: 63 
+ ============= 
+[2023-11-09 06-04-41] Текст ошибки: Нет соединения с БД | Файл: /var/www/html/watch/vendor/watch/core/Db.php | Строка: 23 
+ ============= 
+[2023-11-09 06-30-03] Текст ошибки: Undefined constant "app\controllers\names" | Файл: /var/www/html/watch/app/controllers/MainController.php | Строка: 19 
+ ============= 
